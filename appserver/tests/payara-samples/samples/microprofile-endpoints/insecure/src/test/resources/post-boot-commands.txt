@@ -1,2 +1,0 @@
-set-metrics-configuration --endpoint=mpmetrics
-set-microprofile-healthcheck-configuration --endpoint=mphealth

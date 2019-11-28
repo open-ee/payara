@@ -51,43 +51,7 @@
     <description>Payara Appserver modules</description>
     <packaging>pom</packaging>
     <modules>
-        <module>payara-jsr107</module>
-        <module>hazelcast-ejb-timer</module>
-        <module>hazelcast-eclipselink-coordination</module>
-        <module>jmx-monitoring-service</module>
-        <module>payara-micro-service</module>
-        <module>payara-micro-cdi</module>
-        <module>jaspic-servlet-utils</module>
-        <module>notification-jms-core</module>
-        <module>notification-hipchat-core</module>
-        <module>notification-slack-core</module>
-        <module>notification-email-core</module>
-        <module>notification-xmpp-core</module>
-        <module>notification-snmp-core</module>
-        <module>notification-newrelic-core</module>
-        <module>notification-datadog-core</module>
-        <module>zendesk-support</module>
-        <module>environment-warning</module>
-        <module>payara-rest-endpoints</module>
-        <module>rest-monitoring</module>
-        <module>cdi-auth-roles</module>
-        <module>opentracing-cdi</module>
-        <module>jaxrs-client-tracing</module>
-        <module>yubikey-authentication</module>
+        <module>microprofile</module>
     </modules>
-    <profiles>
-        <profile>
-            <id>jdk8</id>
-            <activation>
-                <jdk>[1.8,)</jdk>
-            </activation>
-            <modules>
-                <module>microprofile</module>
-                <module>security-oauth2</module>
-                <module>security-openid</module>
-                <module>healthcheck-checker</module> <!-- as it depends on microprofile -->
-            </modules>
-        </profile>
-    </profiles>
 </project>
 

@@ -1,2 +1,0 @@
-org.glassfish.cdi.transaction.TransactionalExtension
-org.glassfish.cdi.transaction.TransactionScopedContextExtension
